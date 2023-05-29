@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Registration Page</title>
+  <style>
+    .handline{
+      text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color:  #797373;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-wrapper {
+      width: 350px;
+      margin: 0 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .spl button {
+      width: 200px;
+                padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 50px;
+            font-weight: bold;
+            border: 2px solid #44014d;
+            background: transparent;
+            color: wheat;
+            cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="handline">
+    <h1>CAR PARKING RESERVATION </h1>
+    <BR>
+      <br>
+  </div>
+  <div class="container">
+    <div class="form-wrapper">
+      <form id="login-form" action="#" method="post">
+        <h2>Login</h2>
+        <div class="form-group">
+          <label for="login-username">Username</label>
+          <input type="text" id="login-username" name="login-username" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="login-password" required>
+        </div>
+        <div class="spl">
+          <button><a href="pageuser.html">SUBMIT</a> </button>
+        </div>
+      </form>
+    </div>
+    <div class="form-wrapper">
+      <form id="register-form" action="#" method="post">
+        <h2>Registration</h2>
+        <div class="form-group">
+          <label for="register-username">Username</label>
+          <input type="text" id="register-username" name="register-username" required>
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password</label>
+          <input type="password" id="register-password" name="register-password" required>
+        </div>
+        <div class="spl">
+          <button><a href="pageuser.html">LOGIN</a> </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
